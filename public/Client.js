@@ -4,9 +4,9 @@ let userName = "Anonimous"
 
 function connectWebSocket() {
     //1. create an instance of a WebSocket pointing to a specific server and port 
-    ws = new WebSocket('ws://localhost:3006');
+    ws = new WebSocket('wss://nodejsprod.onrender.com');
     // 2. Event handeling - onopen, on message, onclose
-    // - Conne
+    // - Connect
     ws.onopen = () => {
         console.log("connected to server")
     };

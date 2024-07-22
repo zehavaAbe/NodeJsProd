@@ -1,2 +1,2 @@
-const {startServer} = require('zehava-super-server');
-startServer(3006);
+const {startServer} = require('./lib/appServer');
+startServer();
